@@ -1,0 +1,23 @@
+<div class="container text-center d-flex justify-content-center ">
+    <form method="POST" action="/api" class="col-4">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Titulo</label>
+            <input type="text" name='title' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Precio</label>
+            <input type="number" name='price' class="form-control price" id="price" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Imagen</label>
+            <input id="myImage" type="url" name='thumbnail' class="form-control" crossOrigin="anonymous" required>
+        </div>
+
+        <img id="result">
+
+        <button type="submit" class="btn btn-primary w-50">Guardar</button>
+        <button type="reset" class="btn btn-warning w-25">Limpiar</button>
+    </form>
+
+</div>
