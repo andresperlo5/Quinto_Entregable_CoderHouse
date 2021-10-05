@@ -1,0 +1,4 @@
+El ejercicio de esta semana era usar los motores de plantillas: HANDLEBARS, PUG, EJS.
+La verdad que de los 3 me parecio mas facil por las funciones del mismo template: EJS. 
+Los 3 tienen su complegidad. El mas complego, por que no se usarlo en su totalidad, me parecio
+PUG. Tanto Handlebars y Ejs son mas dociles y entendibles para usar.
